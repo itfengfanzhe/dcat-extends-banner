@@ -1,0 +1,32 @@
+{
+    "name": "dcat-admin/banner",
+    "alias": "",
+    "description": "轮播图扩展",
+    "type": "library",
+    "keywords": ["dcat-admin", "extension"],
+    "homepage": "https://github.com/dcat-admin/banner",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "张建伟",
+            "email": "itfengfanzhe@163.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "dcat/laravel-admin": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dcat\\Admin\\Banner\\": "src/"
+        }
+    },
+    "extra": {
+        "dcat-admin": "Dcat\\Admin\\Banner\\BannerServiceProvider",
+        "laravel": {
+            "providers": [
+                "Dcat\\Admin\\Banner\\BannerServiceProvider"
+            ]
+        }
+    }
+}
