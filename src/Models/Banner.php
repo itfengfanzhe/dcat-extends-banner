@@ -5,5 +5,5 @@ use Illuminate\Database\Eloquent\Model;
 
 class Banner extends Model
 {
-    protected $table = 'banner';
+    protected $table = 'itffz_cms_banner';
 }

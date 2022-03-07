@@ -13,7 +13,7 @@ class CreateBannerPositionTable extends Migration
      */
     public function up()
     {
-        Schema::create('banner_position', function (Blueprint $table) {
+        Schema::create('itffz_cms_banner_position', function (Blueprint $table) {
             $table->id();
             $table->string('title')->nullable()->comment('位置');
             $table->string('description')->nullable()->comment('描述');
@@ -28,6 +28,6 @@ class CreateBannerPositionTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('banner_position');
+        Schema::dropIfExists('itffz_cms_banner_position');
     }
 }
