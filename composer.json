@@ -4,7 +4,7 @@
     "description": "轮播图扩展",
     "type": "library",
     "keywords": ["dcat-admin", "extension"],
-    "homepage": "https://github.com/dcat-admin/banner",
+    "homepage": "https://github.com/itfengfanzhe/dcat-extends-banner",
     "license": "MIT",
     "authors": [
         {
